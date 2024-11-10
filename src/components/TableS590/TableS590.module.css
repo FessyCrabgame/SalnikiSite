@@ -1,0 +1,84 @@
+.table{
+    border-collapse: collapse; 
+    width: 62.0312%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 400;
+    color: #818181;
+    text-align: center;
+}
+.tr{
+    height: 38px;
+}
+.td1type{
+    width: 24.3822%; 
+    text-align: center; 
+    height: 47px;
+}
+.td2type{
+    width: 7.17468%; 
+    text-align: center; 
+    height: 47px;
+}
+.td3type{
+    width: 9.36087%; 
+    text-align: center; 
+    height: 24px;
+}
+.td4type{
+    width: 5.21381%; 
+    text-align: center; 
+    height: 23px;
+}
+.td5type{
+    width: 1.65849%; 
+    text-align: center; 
+    height: 23px;
+}
+.td6type{
+    width: 1.4218%; 
+    text-align: center; 
+    height: 23px;
+}
+.td7type{
+    width: 1.06677%; 
+    text-align: center; 
+    height: 23px;
+}
+.td8type{
+    width: 3.06748%; 
+    text-align: center; 
+    height: 184px; 
+    vertical-align: middle;
+}
+.td9type{
+    width: 21.3147%; 
+    text-align: center; 
+    height: 23px;
+}
+.td10type{
+    width: 7.17468%; 
+    text-align: center; 
+    height: 23px;
+}
+.td11type{
+    width: 5.21381%; 
+    text-align: center; 
+    height: 23px;
+}
+.td12type{
+    width: 1.65849%; 
+    text-align: center; 
+    height: 23px;
+}
+.td13type{
+    width: 1.4218%; 
+    text-align: center; 
+    height: 23px;
+}
+.td14type{
+    width: 1.06677%; 
+    height: 23px;
+}

@@ -3,7 +3,7 @@ import css from './TopOfManePage.module.css'
 
 export default function TopOfManePage(){
     return(
-        <div>
+        <div className={css.superDiv}>
             <div className={css.middleDiv}>
                 <p className={css.middleP}>Сальник-24</p>
                 <div className={css.middleDivFire}>

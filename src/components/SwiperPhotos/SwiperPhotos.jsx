@@ -8,7 +8,7 @@ export default function SwiperPhotos(){
 
     return(
         <div>
-            <div className={css.swiper}>
+            <div className={css.swiper} id="gallery">
                 <img width="340" height="340" src={`${swiperPhotosData[photoNumber%swiperPhotosData.length].src}`} alt="photoSwiper"/>            
                 {window.innerWidth>680?<img className={css.swiperImage} width="340" height="340" src={`${swiperPhotosData[(photoNumber+1)%swiperPhotosData.length].src}`} alt="photoSwiper"/>: ''}
                 {window.innerWidth>1020?<img className={css.swiperImage} width="340" height="340" src={`${swiperPhotosData[(photoNumber+2)%swiperPhotosData.length].src}`} alt="photoSwiper"/>: ''}

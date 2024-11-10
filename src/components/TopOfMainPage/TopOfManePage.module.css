@@ -29,6 +29,8 @@
     width:40vw;
     margin-left: auto;
     margin-right: auto;
+    animation: fire 2.5s forwards;
+    position: relative;
 }
 .middlePhone{
     color: rgb(41, 119, 110);
@@ -44,6 +46,7 @@
     height:40px;
     width: 300px;
     cursor: pointer;
+    animation: phone 2.5s forwards;
 }
 .middlePhone:hover{
     color:chocolate;
@@ -53,6 +56,10 @@
     margin-top:5vw;
     width: clamp(18.375rem, 5.563rem + 25.62vw, 36.313rem);
     height:clamp(12.125rem, 3.643rem + 16.96vw, 24rem);
+    zoom: 1;
+    opacity: 0;
+    animation: ani 2.5s forwards;
+    position: relative;
 }
 .leftDiv{
     color: rgb(94, 94, 94);
@@ -68,9 +75,30 @@
 }
 .rightDivP{
     margin-bottom:40px;
+    animation: word 2.5s forwards;
+    position: relative;
+}
+.superDiv{
+    margin-top: 180px;   
 }
 @media (max-width:1400px) {
     .leftDiv{
         top:-100px;
     }
+}
+@keyframes ani {
+    0% {opacity: 0;bottom: -100px;}
+    100% {opacity: 1;bottom:0px}
+}
+@keyframes phone {
+    0% {opacity: 0;right: -100px;}
+    100% {opacity: 1;right:0px}
+}
+@keyframes fire {
+    0% {opacity: 0;bottom: -100px;}
+    100% {opacity: 1;bottom:0px}
+}
+@keyframes word {
+    0% {opacity: 0;right: -100px;}
+    100% {opacity: 1;right:0px}
 }

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+.superDiv{
+    display: flex;
+    margin-top: 140px;
+    align-items: center;
+    flex-direction: column;
+    width:59vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.zagolovok1{
+    color: #29776e;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 60px;
+    font-style: normal;
+}
+.zagolovok2{
+    color: #29776e;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 60px;
+    font-style: normal;
+    margin-top: 50px;
+}
+.mainDivInfo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 400;
+    color: #818181;
+}
+.mainSertiousDiv{
+    display: flex;
+    flex-direction: row;    
+    margin-top: 40px;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    width:59vw;
+    justify-content: space-between;
+}
+.mainDivInfo1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 400;
+    color: #818181;
+    width:252px;
+}
+.scheme:hover{
+    transform: scale(1.1);
+}

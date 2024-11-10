@@ -3,6 +3,7 @@ import SwiperPhotos from '../SwiperPhotos/SwiperPhotos'
 import RegistrationForm from '../RegistrationForm/RegistrationForm'
 import TopOfManePage from '../TopOfMainPage/TopOfManePage'
 import MainInfoMainPage from '../MainInfoManePage/MainInfoMainPage'
+import Warning from '../Warning/Warning'
 
 
 
@@ -12,6 +13,7 @@ export default function Main(){
         <div className={css.main}>
             <TopOfManePage />
             <MainInfoMainPage />
+            <Warning />
             <SwiperPhotos />
             <RegistrationForm />
         </div>

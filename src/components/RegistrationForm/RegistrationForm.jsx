@@ -7,7 +7,7 @@ export default function RegistrationForm(){
 
     return(
         <div className={css.mainRegDiv}>
-            <div className={css.regForm1}>
+            <div className={css.regForm1} id="#form">
                 <p className={css.kontakti}>Контакты</p>
                 <div className={css.regBigDiv1}>
                     <div className={css.mainNames}>
@@ -23,9 +23,9 @@ export default function RegistrationForm(){
             <div className={css.regForm2}>
                 <p className={css.regDivNet}>Обратная связь</p>
                 <div className={css.regDivFormReg}>
-                    <input placeholder="Имя*" className={css.regDivFormRegName} onClick={() => setdataInputCheck([dataInputCheck[0], ''])} onInput={event=>setdataInputCheck([dataInputCheck[0], event.target.value])}/>
+                    <input placeholder="Имя*" className={css.regDivFormRegName} onClick={() => {if(dataInputCheck[1]=="smth"){setdataInputCheck([dataInputCheck[0], ''])}}} onInput={event=>setdataInputCheck([dataInputCheck[0], event.target.value])}/>
                     {dataInputCheck[1]==""?<div className={css.necesaryField}>Поле обязательно для заполнения</div> : ""}
-                    <input type="tel" placeholder="Телефон" className={css.regDivFormRegPhone} onClick={() => setdataInputCheck(['', dataInputCheck[0]])} onInput={event=>setdataInputCheck([event.target.value, dataInputCheck[1]])}/>
+                    <input type="tel" placeholder="Телефон" className={css.regDivFormRegPhone} onClick={() => {if(dataInputCheck[0]=="smth"){setdataInputCheck(['', dataInputCheck[1]])}}} onInput={event=>setdataInputCheck([event.target.value, dataInputCheck[1]])}/>
                     {dataInputCheck[0]==""?<div className={css.necesaryField}>Поле обязательно для заполнения</div> : ""}
                     <div className={css.regDivFormRegCheck}>
                         <input type="checkbox" className={css.regDivFormRegCheckBox}/>

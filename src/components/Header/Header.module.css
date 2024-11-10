@@ -16,6 +16,7 @@
 }
 .logoDiv{
     display: flex;
+    cursor: pointer;
 }
 .logoMain{
     margin-left: 20px;
@@ -33,4 +34,7 @@
 }
 .mainHeaderText:hover{
     color:chocolate
+}
+.link{
+    text-decoration: none;
 }

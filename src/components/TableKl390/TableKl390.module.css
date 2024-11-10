@@ -1,0 +1,135 @@
+.table{
+    width: 100%; 
+    border-collapse: collapse; 
+    border-style: solid; 
+    border-color: #1f1d1d; 
+    height: 509px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 400;
+    color: #818181;
+    text-align: center;
+}
+.tr24{
+    height: 24px;
+}
+.tr48{
+    height:48px;
+}
+.tr1Type{
+    width: 11.7331%; 
+    height: 48px; 
+    border-color: #1f1d1d; 
+    border-style: solid; 
+    text-align: center; 
+    vertical-align: middle;
+}
+.tr2Type{
+    width: 22.6106%; 
+    height: 27px; 
+    border-style: solid; 
+    border-color: #1f1d1d; 
+    text-align: center;
+}
+.tr3Type{
+    width: 5.58376%; 
+    height: 48px; 
+    text-align: center; 
+    border-style: solid; 
+    border-color: #121111; 
+    vertical-align: middle;
+}
+.tr4Type{
+    width: 7.42619%; 
+    height: 48px; 
+    border-color: #1f1d1d; 
+    border-style: solid; 
+    text-align: center; 
+    vertical-align: middle;
+}
+.tr5Type{
+    width: 22.1029%; 
+    height: 24px; 
+    border-color: #1f1d1d; 
+    border-style: solid; 
+    text-align: center; 
+    vertical-align: middle;
+}
+.tr6Type{
+    width: 6.14939%; 
+    height: 48px; 
+    border-color: #1f1d1d; 
+    border-style: solid; 
+    text-align: center;
+}
+.tr7Type{
+    width: 17.3896%; 
+    height: 24px; 
+    border-color: #1f1d1d; 
+    border-style: solid; 
+    text-align: center; 
+    vertical-align: middle;
+}
+.tr8Type{
+    width: 10.9356%; 
+    height: 48px; 
+    border-color: #1f1d1d; 
+    border-style: solid; 
+    text-align: center; 
+    vertical-align: middle;
+}
+.tr9Type{
+    width: 18.8834%; 
+    height: 27px; 
+    border-style: solid; 
+    border-color: #1f1d1d; 
+    text-align: center;
+}
+.tr10Type{
+    width: 28.3106%; 
+    height: 27px; 
+    border-style: solid; 
+    border-color: #1f1d1d; 
+    text-align: center;
+}
+.tr11Type{
+    width: 4.77159%; 
+    height: 48px; 
+    border-color: #1f1d1d; 
+    border-style: solid; 
+    text-align: center;
+}
+.tr12Type{
+    width: 5.8735%; 
+    height: 434px; 
+    border-color: #1f1d1d; 
+    border-style: solid; 
+    text-align: center; 
+    vertical-align: middle;
+}
+.tr13Type{
+    width: 4.77159%; 
+    height: 434px; 
+    border-color: #1f1d1d; 
+    border-style: solid; 
+    text-align: center; 
+    vertical-align: middle;
+}
+.tr14Type{
+    width: 5.58376%; 
+    height: 24px; 
+    border-color: #1f1d1d; 
+    border-style: solid; 
+    text-align: center; 
+    vertical-align: middle;
+}
+.tr15Type{
+    width: 7.42619%; 
+    height: 24px; 
+    border-color: #1f1d1d; 
+    border-style: solid; 
+    text-align: center; 
+    vertical-align: middle;
+}
