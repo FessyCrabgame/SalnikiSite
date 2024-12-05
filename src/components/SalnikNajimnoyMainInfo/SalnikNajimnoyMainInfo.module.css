@@ -15,7 +15,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 32px;
     line-height: 32px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     font-style: normal;
 }
 .zagolovok2{
@@ -80,8 +80,55 @@
 .zoom:hover{
     transform: scale(1.1);
 }
+.imageStayDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: clamp(1.25rem, 0.893rem + 0.71vw, 1.75rem);
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 400;
+    color:chocolate;
+    background-color: white;
+    border: 1px solid chocolate;
+    cursor: pointer;
+    width:clamp(12.5rem, -0.893rem + 26.79vw, 31.25rem);
+    height: clamp(2.188rem, 1.518rem + 1.34vw, 3.125rem);
+    animation: formP 2.5s forwards;
+    margin-bottom: 60px;
+}
+.imageStayDiv:hover{
+    color:rgb(41, 119, 110);
+    border:rgb(41, 119, 110)  1px solid;
+}
+.zoom{
+    width:clamp(18.75rem, 12.275rem + 32.38vw, 51.125rem);
+    height:clamp(12.5rem, 7.9rem + 23vw, 35.5rem);
+}
+.zoom2{
+    width:clamp(12.5rem, 8.638rem + 19.31vw, 31.813rem);
+}
+.zoom4{
+    width:clamp(12.5rem, 9.487rem + 15.06vw, 27.563rem);
+}
+.flexDiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 @media (max-width:1200px) {
+    .mainSertiousDiv{
+        flex-direction: column;
+    }
     .superDiv{
-        margin-left: clamp(1.25rem, -25.875rem + 54.25vw, 14.813rem);
+        margin-left: 20px;
+        margin-right: 0;
+        width:90%;
+    }
+}
+@media (max-width:950px) {
+    .imageStayDiv{
+        display: none;
     }
 }

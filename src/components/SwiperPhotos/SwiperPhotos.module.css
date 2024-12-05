@@ -2,7 +2,7 @@
     max-width:100vw;
     margin-top: 90px;
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around    ;
 }
 .pageLeft{
     left: 100px;
@@ -19,7 +19,7 @@
     -o-transform: scale(-1, 1);
     -ms-transform: scale(-1, 1);
     transform: scale(-1, 1);
-    font-size: 30px;
+    font-size: 34px;
     border-radius: 50%;
     border:solid 1px black;
     padding: 10px;
@@ -36,7 +36,7 @@
     position: relative;
     top:-190px;
     float:right;
-    font-size: 30px;
+    font-size: 34px;
     border-radius: 50%;
     border:solid 1px black;
     padding: 10px;
@@ -50,4 +50,9 @@
 .pageLeft:hover, .pageRight:hover{
     color:rgb(41, 119, 110);
     cursor: pointer;
+}
+@media (max-width:400px) {
+    .superDiv{
+        display: none;
+    }
 }

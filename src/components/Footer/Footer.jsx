@@ -24,23 +24,23 @@ export default function Footer(){
                 <div className={css.footerDiv}>
                     <p className={css.footerDivFatP}>Адреса складов</p>
                     <div className={css.footerDivBigDiv}>
-                        <p className={css.footerDivSmallP}>Москва</p>
-                        <p className={css.footerDivSmallP}>Шоссейный проезд, д.14</p>
+                        <p className={css.footerDivSmallP}>Московская область</p>
+                        <p className={css.footerDivSmallP}>г.Котельники, ул.Новая д.19</p>
                     </div>
                     <div className={css.footerDivBigDiv}>
-                        <p className={css.footerDivSmallP}>Санкт-Петербург</p>
-                        <p className={css.footerDivSmallP}>ул.Домостроительная, 3 лит. Л</p>
+                        <p className={css.footerDivSmallP}>Ленинградская область</p>
+                        <p className={css.footerDivSmallP}>г.Шушары, Новгородский проспект 26, кор.1, литер А.</p>
                     </div>
                 </div>
                 <div className={css.footerDiv}>
                     <p className={css.footerDivFatP}>.</p>
                     <div className={css.footerDivBigDiv}>
-                        <p className={css.footerDivSmallP}>Ростов-на-Дону</p>
-                        <p className={css.footerDivSmallP}>ул. Доватора, 156/2</p>
+                        <p className={css.footerDivSmallP}>Ростовская область</p>
+                        <p className={css.footerDivSmallP}>г. Ростов-на-Дону Элеваторный переулок,1</p>
                     </div>
                     <div className={css.footerDivBigDiv}>
-                        <p className={css.footerDivSmallP}>Краснодар х. Октябрьский</p>
-                        <p className={css.footerDivSmallP}>ул.Подсолнечная, 44</p>
+                        <p className={css.footerDivSmallP}>Краснодарский край</p>
+                        <p className={css.footerDivSmallP}>г.Краснодар ул. Тополиная 25</p>
                     </div>
                 </div>
             </div>

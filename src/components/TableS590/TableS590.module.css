@@ -82,3 +82,13 @@
     width: 1.06677%; 
     height: 23px;
 }
+@media (max-width:650px) {
+    .table{
+        margin-left: 25vw;
+    }
+}
+@media (max-width:650px) {
+    .table{
+        display: none;
+    }
+}

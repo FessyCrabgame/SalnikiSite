@@ -43,3 +43,8 @@ tr{
 td{
     border: 1px solid black;
 }
+@media (max-width:750px) {
+    .table{
+        display: none;
+    }   
+}

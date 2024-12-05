@@ -7,7 +7,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 32px;
     line-height: 32px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     font-style: normal;
 }
 .mainDivInfo1{
@@ -39,4 +39,63 @@
     margin-bottom: 60px;
     font-style: normal;
     margin-top: 50px;
+}
+.scheme2{
+    width:clamp(18.75rem, 11.913rem + 34.19vw, 52.938rem)
+}
+.scheme{
+    width:clamp(18.75rem, 11.913rem + 34.19vw, 52.938rem)
+}
+.imageStayDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: clamp(1.25rem, 0.893rem + 0.71vw, 1.75rem);
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 400;
+    color:chocolate;
+    background-color: white;
+    border: 1px solid chocolate;
+    cursor: pointer;
+    width:clamp(12.5rem, -0.893rem + 26.79vw, 31.25rem);
+    height: clamp(2.188rem, 1.518rem + 1.34vw, 3.125rem);
+    margin-bottom: 60px;
+    animation: formP 2.5s forwards;
+}
+.imageStayDiv:hover{
+    color:rgb(41, 119, 110);
+    border:rgb(41, 119, 110)  1px solid;
+}
+.flexDiv{
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width:1200px) {
+    .superDiv{
+        margin-left: clamp(1.25rem, -25.875rem + 54.25vw, 14.813rem);
+    }
+    .scheme{
+
+    }
+}
+@media (max-width:750px) {
+    .imageStayDiv{
+        display: none;
+    }
+}
+@media (max-width:650px) {
+#table2{
+    display: none;
+}
+#table1{
+    display: none;
+}
+.scheme{
+    margin-left: 5vw;
+}
+.scheme2{
+    margin-left: 5vw;
+}
 }

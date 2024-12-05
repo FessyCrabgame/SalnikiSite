@@ -13,6 +13,10 @@
     margin-right: auto;
     width: 80vw;
 }
+.can1{
+    width:clamp(6.25rem, 3.75rem + 12.5vw, 18.75rem);
+    height:clamp(6.25rem, 3.787rem + 12.31vw, 18.563rem);
+}
 .endDivName{
     text-align: center;
     color: rgb(41, 119, 110);
@@ -93,4 +97,36 @@
 }
 .link{
     text-decoration: none;
+}
+.can1:hover{
+    filter: brightness(70%);
+    cursor: pointer;
+}
+.imageStayDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: clamp(0.625rem, 0.5rem + 0.63vw, 1.25rem);
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 400;
+    border: 1px solid chocolate;
+    cursor: pointer;
+    width:clamp(6.25rem, 3.75rem + 12.5vw, 18.75rem);
+    height: clamp(2.188rem, 1.518rem + 1.34vw, 3.125rem);
+    position: relative;
+    float: right;
+    animation: formP 2.5s forwards;
+    background-color: white;
+    color:chocolate;
+    margin-top: 20px;
+}
+.imageStayDiv:hover{
+    color:rgb(41, 119, 110);
+    border:rgb(41, 119, 110)  1px solid;
+}
+.imageDiv{
+    width:clamp(6.25rem, 3.75rem + 12.5vw, 18.75rem);
+
 }

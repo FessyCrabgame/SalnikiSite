@@ -36,7 +36,7 @@ export default function RegistrationForm(){
                     </div>
                     <div className={css.regDivFormRegMessageDiv}>
                         <p className={css.regDivFormRegMistakeDiv}>Сообщить о нарушении</p>
-                        <img className={css.regDivFormRegMessageImage} src={'../../public/assets/Без названия.svg'}/>
+                        <img className={css.regDivFormRegMessageImage} src={'../../assets/Без названия.svg'}/>
                     </div>
                 </div>
             </div>

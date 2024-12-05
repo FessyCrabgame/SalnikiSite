@@ -17,7 +17,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 32px;
     line-height: 32px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     font-style: normal;
 }
 .zagolovok2{
@@ -57,4 +57,50 @@
 }
 .scheme:hover{
     transform: scale(1.1);
+}
+.scheme{
+    width:clamp(12.5rem, 4.775rem + 38.63vw, 51.125rem);
+    height:clamp(12.5rem, 6.696rem + 11.61vw, 20.625rem);
+}
+.imageStayDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: clamp(1.25rem, 0.893rem + 0.71vw, 1.75rem);
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 400;
+    color:chocolate;
+    background-color: white;
+    border: 1px solid chocolate;
+    cursor: pointer;
+    width:clamp(12.5rem, -0.893rem + 26.79vw, 31.25rem);
+    height: clamp(2.188rem, 1.518rem + 1.34vw, 3.125rem);
+    animation: formP 2.5s forwards;
+    margin-bottom: 60px;
+}
+.imageStayDiv:hover{
+    color:rgb(41, 119, 110);
+    border:rgb(41, 119, 110)  1px solid;
+}
+.flexDiv{
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width:1200px) {
+    .imageStayDiv{
+        display: none;
+}}
+@media (max-width:900px) {
+    .superDiv{
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    .zagolovok2{
+        display: none;
+    }
+    .mainSertiousDiv{
+        flex-direction: column;
+    }
 }

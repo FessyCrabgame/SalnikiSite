@@ -40,9 +40,7 @@
     font-size: clamp(1.188rem, 0.339rem + 1.7vw, 2.375rem);
     position: relative;
     text-align: right;
-    float: right;
     margin-right: calc(10vw - 10px);
-    top:-120px;
     height:40px;
     width: 300px;
     cursor: pointer;
@@ -81,6 +79,58 @@
 .superDiv{
     margin-top: 180px;   
 }
+.imageStayDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: clamp(1.25rem, 0.893rem + 0.71vw, 1.75rem);
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 400;
+    border: 1px solid chocolate;
+    cursor: pointer;
+    width:clamp(12.5rem, -0.893rem + 26.79vw, 31.25rem);
+    height: clamp(2.188rem, 1.518rem + 1.34vw, 3.125rem);
+    position: relative;
+    float: right;
+    top:150px;
+    left:200px;
+    animation: formP 2.5s forwards;
+    background-color: white;
+    color:chocolate;
+}
+.imageStayDiv:hover{
+    color:rgb(41, 119, 110);
+    border:rgb(41, 119, 110)  1px solid;
+}
+.emailDiv{
+    display: flex;
+    float: right;
+    top:-120px;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+    animation: email 4s forwards;
+}
+.email{
+    margin-right: calc(10vw - 10px);
+    text-align: end;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: clamp(1.25rem, 0.893rem + 0.71vw, 1.75rem);
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 400;
+    color:chocolate;
+    width:400px;
+    cursor: pointer;
+}
+.email:hover{
+    color: rgb(41, 119, 110);
+}
 @media (max-width:1400px) {
     .leftDiv{
         top:-100px;
@@ -101,4 +151,52 @@
 @keyframes word {
     0% {opacity: 0;right: -100px;}
     100% {opacity: 1;right:0px}
+}
+@keyframes formP {
+    0% {opacity: 0;left: 300px;}
+    100% {opacity: 1;left:200px}
+}
+@keyframes email {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+@media (max-width:1600px) {
+    .leftDiv{
+        top:-100px;
+    }
+}
+@media (max-width:1000px) {
+    .imageStayDiv{
+        top:65px;
+    }
+}
+@media (max-width:680px) {
+    .imageStayDiv{
+        top:25px;
+        float:left;
+        float:none;
+    }
+    .emailDiv{
+        top:140px;
+    }
+    .can{
+        display: none;
+    }
+    .leftDiv{
+        display:none;
+    }
+    .superDiv{
+        margin-bottom: 250px;
+    }
+    .middleSroki{
+        display: none;
+    }
+    .logo2{
+        display: none;
+    }
+}
+@media (max-width:680px) {
+    .imageStayDiv{
+        display:none;
+    }
 }

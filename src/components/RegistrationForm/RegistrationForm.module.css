@@ -9,6 +9,7 @@
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    align-items: center;
 }
 .kontakti, .regDivNet{
     font-family: Roboto;
@@ -89,7 +90,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 444px;
+    width: 100%;
     height: 52px;
     border-radius: 4px;
     margin-top: 20px;
@@ -139,5 +140,14 @@
     }
     .regForm2{
         margin-top: 50px;
+    }
+}
+@media (max-width:650px) {
+    .mainRegDiv{
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    .regPhoneData, .regEmanilData{
+        font-size: 14px;
     }
 }
